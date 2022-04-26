@@ -78,6 +78,7 @@ li a {
 	text-align: center;
 	color: rgb(42, 121, 110);
     font-size: 22px;
+	
     
 }
 
@@ -102,8 +103,8 @@ h3 {
 	max-height: 400px;
     text-align: center;
     position: fixed;
-    margin-left: 33%;
-    margin-top: 16%;
+    margin-left: 15em;
+    margin-top: 10em;
     font-size: 30px;
     top: 0;
     left: 0;
@@ -121,14 +122,15 @@ p {
 }
 h4 {
 	color: rgb(42, 121, 110);
-    max-width: 1200px;
+    max-width: 570px;
     text-align: center;
     position: fixed;
-    margin-left: 5em;
-    margin-top: 16%;
+    margin-left: 17em;
+    margin-top: 11em;
     font-size: 23px;
     background-color:rgb(197, 238, 214);
      
+
 }
 h6 {
 
