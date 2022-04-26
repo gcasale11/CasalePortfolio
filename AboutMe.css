@@ -2,9 +2,8 @@ body {
 	background-color: rgb(105, 151, 147);
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-bottom: 9%;
+	margin-bottom: 10%;
 	font-family: 'Source Sans Pro', sans-serif;
-	
 }
 /*Common elements*/
 title {
@@ -78,8 +77,9 @@ li a {
 }
 
 li a:hover{
-    background-color: aliceblue;
+    background-color: aliceblue; 
 }
+
 /*Main*/
 section#middletxt {
 	position: absolute;
@@ -107,7 +107,6 @@ h3 {
 
 }
 
-
 p {
 	color: aliceblue;
 	padding-right: 40px;
@@ -117,7 +116,7 @@ p {
 }
 h4 {
 	color: rgb(42, 121, 110);
-    max-width: 1200px;
+    max-width: 570px;
     text-align: center;
     position: fixed;
     margin-left: 5em;
@@ -125,19 +124,29 @@ h4 {
     font-size: 23px;
     background-color:rgb(197, 238, 214);
      
+
 }
 h6 {
 
 	color: rgb(42, 121, 110);
-	max-width: 1200px;
 	text-align: center;
 	position: fixed;
-	margin-left: 6em;
-	margin-top: 35%;
+	margin-left: 18em;
+	margin-top: 45%;
 	font-size: 23px;
 	background-color:rgb(197, 238, 214);
 	 
 }
+
+
+div.panel{
+    position:fixed;   
+    padding: 1.0em;
+	margin-top: 12%;
+	margin-left: 39%;
+    
+}
+
 /*Footer*/
 
 h5 {
@@ -160,7 +169,7 @@ footer {
 	width: 84%;
 	height: 85px;
 	margin-left: 150px;
-	margin-top: 800px;
+	
 }
 
 .footlist {
@@ -177,5 +186,4 @@ footer {
 	padding-top: 4px;
     font-family: 'Palatino';
 }
-
 
