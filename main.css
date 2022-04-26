@@ -2,8 +2,9 @@ body {
 	background-color: rgb(105, 151, 147);
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-bottom: 10%;
+	margin-bottom: 9%;
 	font-family: 'Source Sans Pro', sans-serif;
+	
 }
 /*Common elements*/
 title {
@@ -48,21 +49,25 @@ nav {
 	background-color: rgb(197, 238, 214);
 	width: 84%;
     height: 85px;
-	margin-left: 150px;
-	margin-top: 200px;
+	margin-left: 8em;
+	margin-top: 10em;
 }
 
 ul  {
  
- padding: 0.2em 8.0em;
- display: inline-block;
- 
-
-}
+	padding: 0.2em 8.0em;
+	display: inline-block;
+	margin-left: 9em;
+	   margin-top: 1em;
+	
+	
+   
+   }
 
 li {
 	display: inline;
 	float: left;
+	
 }
 
 li a {
@@ -77,7 +82,7 @@ li a {
 }
 
 li a:hover{
-    background-color: aliceblue; 
+    background-color: aliceblue;
 }
 /*Main*/
 section#middletxt {
@@ -106,6 +111,7 @@ h3 {
 
 }
 
+
 p {
 	color: aliceblue;
 	padding-right: 40px;
@@ -123,27 +129,19 @@ h4 {
     font-size: 23px;
     background-color:rgb(197, 238, 214);
      
-
 }
+h6 {
 
-
-
-/*Form*/
-
-form {
 	color: rgb(42, 121, 110);
-   width: 700px;
-   height: 300px;
-    text-align: center;
-    position: fixed;
-    margin-left: 12em;
-    margin-top: 19%;
-    font-size: 23px;
-    background-color:rgb(197, 238, 214);
-	padding-top: 3em;
-	padding-left: 2em;
+	max-width: 1200px;
+	text-align: center;
+	position: fixed;
+	margin-left: 6em;
+	margin-top: 35%;
+	font-size: 23px;
+	background-color:rgb(197, 238, 214);
+	 
 }
-
 /*Footer*/
 
 h5 {
@@ -165,8 +163,9 @@ footer {
 	background-color: rgb(197, 238, 214);
 	width: 84%;
 	height: 85px;
-	margin-left: 150px;
-	margin-top: 100px;
+	margin-left: 9em;
+	margin-top: 10em;
+	
 }
 
 .footlist {
@@ -183,3 +182,5 @@ footer {
 	padding-top: 4px;
     font-family: 'Palatino';
 }
+
+
